@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github Hub</title>
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">About</a></li>
+				</ul>
+			</nav>
+			<div><h1><img src="img/logo.gif" class="bordered-image">GitHub</h1></div>
+			<div>This is a site to search Github for interesting projects.</div>
+		</header>
+		<section id="main">
+			<p>In this <em>sample site</em>, we'll show a list of <a href="htttp://github.com">Github</a>  projects <span>and the data about</span><strong> those projects</strong>.</p>
+			<form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form">
+				<label for="searchPhrase">Search Phrase</label>
+				<input type="text" name="searchPhrase" id="searchPhrase"><br/>
+				<input type="checkbox" name="useStars" checked="true" id="useStars">
+				<label for="useStars">Use Stars?</label><br/>
+				<label for="langChoice">Language:</label>
+				<select name="langChoice" id="langChoice">
+					<option>All</option>
+					<option>Javascript</option>
+					<option selected="true">C#</option>
+					<option>Java</option>
+					<option>Ruby</option>
+				</select>
+				<br>
+				<input type="submit" value="search">
+			</form>
+			<div id="results" class="bordered-image">
+				This is where our search results will ultimately end up...
+			</div>
+		</section>
+
+		<footer>
+			&copy; 2014 Hardy Park - Sensus
+		</footer>
+	</div>
+</body>
+</html>
