@@ -88,3 +88,25 @@ header nav li {
 	padding: 3px;
 	margin-top: 5px;
 }
+
+
+.result {
+	margin: 5px;
+	border: 1px solid #888;
+}
+
+.result .title {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
